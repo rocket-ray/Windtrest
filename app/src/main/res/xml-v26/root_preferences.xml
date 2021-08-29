@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blue">
+
+
+    <PreferenceCategory app:title="@string/varslinger"
+        app:singleLineTitle="false"
+        app:summary="@string/varslingSsum"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SwitchPreferenceCompat
+            app:key="varsel_optimal_fav"
+            android:singleLineTitle="false"
+            app:title="@string/varsel_opt_fav"/>
+        <SwitchPreferenceCompat
+            app:key="varsel_sterk_fav"
+            android:singleLineTitle="false"
+            app:title="@string/varsel_sv_fav"
+            />
+        <SwitchPreferenceCompat
+            app:key="varsel_anb_lok"
+            android:singleLineTitle="false"
+            app:title="@string/varsel_anb_st" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/tillatelser">
+
+        <SwitchPreferenceCompat
+            app:key="use_device_location"
+            app:title="@string/tillat_loc"
+            app:summary="@string/tillat_sum"
+            android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/databehandling">
+
+        <ListPreference
+            app:key="about"
+            app:title="@string/om_appen"
+            app:entries="@array/Om_appen_input"
+            app:entryValues="@array/Om_appen_value"
+            />
+
+        <ListPreference
+            app:key="brukerdata"
+            app:title="@string/data_app"
+            app:entries="@array/Om_data_input"
+            app:entryValues="@array/Om_data_value"
+            />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activities_array">
+        <item>Tur og trening</item>
+        <item>Vindsurfing</item>
+        <item>Droneflyvning</item>
+        <item>Paragliding</item>
+    </string-array>
+</resources>

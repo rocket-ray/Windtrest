@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/weatherForcastFragment">
+
+    <fragment
+        android:id="@+id/weatherForcastFragment"
+        android:name="com.example.app_team35.fragments.WeatherForcastFragment"
+        android:label="WeatherForcastFragment">
+        <action
+            android:id="@+id/action_weatherForcastFragment_to_windFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteLocationsFragment"
+        android:name="com.example.app_team35.fragments.FavouriteLocationsFragment"
+        android:label="FavouriteLocationsFragment">
+        <action
+            android:id="@+id/action_favouriteLocationsFragment_to_windFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.app_team35.fragments.MapFragment"
+        android:label="MapFragment">
+        <action
+            android:id="@+id/action_mapFragment_to_windFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.app_team35.fragments.SettingsFragment2"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_windFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Windterest</string>
+    <string name="place_name">Place Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="placeholder">Placeholder txt</string>
+    <string name="day">DAG</string>
+    <string name="vindstyrke">Vindstyrke: </string>
+    <string name="vindkast">Vindkast: </string>
+    <string name="vindretning">Vindretning: </string>
+    <string name="vindavkjøling">Vindavkjøling: </string>
+    <string name="luftfuktighet">Luftfuktighet: </string>
+    <string name="nedbør">Nedbør: </string>
+    <string name="shared_pref_favorites">favorite_store</string>
+    <string name="shared_pref_key_favorite_container">favorite_container</string>
+
+    <!-- Icon Titles -->
+    <string name="værvarsel">Værvarsel</string>
+    <string name="mine_steder">Mine steder</string>
+    <string name="kart">Kart</string>
+    <string name="instillinger">Innstillinger</string>
+
+    <!-- Preference Titles -->
+    <string name="varslinger">Varslinger</string>
+    <string name="tillatelser">Tillatelser</string>
+    <string name="databehandling">Databehandling</string>
+    <!-- Varslinger Preferences -->
+    <string name="varslingSsum">Huk av hvilke aktiviteter du ønsker å få varsling for</string>
+    <string name="varsel_opt_fav">Varsel for optimale forhold på favorittsteder</string>
+    <string name="varsel_sv_fav">Varsel om sterk vind på favorittsteder</string>
+    <string name="varsel_anb_st">Varsel om anbefalte steder basert på lokasjon</string>
+    <!-- Tillatelser Preferences -->
+    <string name="tillat_loc">Gi posisjon</string>
+    <string name="tillat_sum">Lar appen bruke enhetens posisjon</string>
+    <!-- Databehandling Preferences -->
+    <string name="om_appen">Om appen</string>
+    <string name="data_app">Data og personvern</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
